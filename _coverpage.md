@@ -1,6 +1,7 @@
 <!-- _coverpage.md -->
 
-![logo](images/logo.png)
+![Obsidian](images/logo.png)
+Obsidian Documentation
 
 [GitHub](https://github.com/ObsidianMC/Obsidian)
 [Discord](https://discord.gg/gQBtqyXChu)
