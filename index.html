@@ -41,14 +41,19 @@
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', (event) => {
+   <script>
+    function updateHighlight()
+    {
       setTimeout(() => {
         document.querySelectorAll('pre code').forEach((block) => {
         hljs.highlightBlock(block);
       });
-      }, 500)
+      }, 300)
+    }
+    document.addEventListener('DOMContentLoaded', (event) => {
+      updateHighlight();
     });
+    window.onhashchange = updateHighlight;
   </script>
 </body>
 </html>
